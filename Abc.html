@@ -1,2 +1,113 @@
-bnfghfj4jbhj
-jhfhhj
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table border="2">
+        <tr>
+            <td onclick="myfunction()" id="zero">You</td>
+            <td onmouseover="myfunction1()" id="one">are</td>
+            <td onmouseout="myfunction2()" id="two">Studying</td>
+            <td ondblclick="myfunction3()" id="three">in</td>
+            <td onmouseup="myfunction4()" id="four">Chitkara</td>
+        </tr>
+        <tr>
+            <td onmousedown="myfunction5()" id="five">Your</td>
+            <td onclick="myfunction6()" id="six">group</td>
+            <td onclick="myfunction7()" id="seven">is</td>
+            <td onclick="myfunction8()" id="eight">G31</td>
+        </tr>
+        <tr>
+            <td><input type="text" onkeypress="myfunction9()"></td>
+            <td><input type="text" onkeydown="myfunction10()"></td>
+            <td><input type="text" onkeyup="myfunction11()"></td>
+            <td><input type="text" onfocus="myfunction12()" id="twelve"></td>
+            <td><input type="text" onblur="myfunction13()" id="thirteen"></td>
+
+        </tr>
+        <tr>
+            <td onclick="myfunction14()" id="fourteen">Table of 2</td>
+            <td onclick="myfunction15()">Table of 5</td>
+            <td onclick="myfunction16()">Table of 6</td>
+            <td><img src="https://th.bing.com/th/id/OIP.nAPI9QoxlImHDRer7VvHkwHaEK?pid=ImgDet&rs=1" width="200" height="150"></td>
+
+        </tr>
+        <tr>
+            <td>OnMouseEnterEvent</td>
+            <td>OnMouseLeaveEvent</td>
+            <td>OnMouseMoveEvent</td>
+        </tr>
+    </table>
+    <script>
+        function myfunction() {
+            document.getElementById("zero").style.color = "red";
+        }
+
+        function myfunction1() {
+            document.getElementById("one").style.color = "yellow";
+
+        }
+
+        function myfunction2() {
+            document.getElementById("two").style.color = "blue";
+        }
+
+        function myfunction3() {
+            document.getElementById("three").style.color = "pink";
+        }
+
+        function myfunction4() {
+            document.getElementById("four").innerHTML = "University";
+        }
+
+        function myfunction5() {
+            document.getElementById("five").style.color = "yellow";
+        }
+
+        function myfunction6() {
+            document.getElementById("six").style.backgroundColor = "Red";
+        }
+
+        function myfunction7() {
+            document.getElementById("seven").innerHTML = "number is";
+        }
+
+        function myfunction8() {
+            document.getElementById("eight").innerHTML = "G26";
+        }
+
+        function myfunction9() {
+            alert("Hello, this is onkeypress event");
+        }
+
+        function myfunction10() {
+            alert("Hello, this is onkeydown event");
+        }
+
+        function myfunction11() {
+            alert("Hello, this is onkeyup event");
+        }
+
+        function myfunction12() {
+            document.getElementById("twelve").style.color = "yellow";
+        }
+
+        function myfunction13() {
+            var x = document.getElementById("thirteen");
+            x.value = x.value.toUpperCase();
+        }
+
+        
+    </script>
+
+
+
+</body>
+
+</html>
